@@ -1,0 +1,361 @@
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src:  local('Manrope-Regular'), url(./fonts//Manrope-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Manrope-Bold';
+    font-style: bold;
+    font-weight: 700;
+    src: local('Manrope-Bold'), url(./fonts/Manrope-Bold.ttf);
+  }
+
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+body{
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Manrope;
+    min-height: 100vh;
+    
+}
+
+.company{
+    padding-left: 26px;
+    padding-top: 20px;
+    background-image: url("./assets/background.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav{
+    align-items: center;
+    display: flex;
+    gap: 0 20px;
+    color: #72B5C4;
+    margin-bottom: 15px;
+}
+
+a{
+    color: #72B5C4;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color:#0B4B67;
+}
+
+.company_main{
+    
+    display: flex;
+    gap: 0 18px;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 50px;
+    justify-content: center;
+    
+}
+
+.company_main_img{
+    display: block;
+    width: 50%;
+}
+
+.info_items{
+    display: flex;
+    gap: 0 20px;
+}
+
+.info_item{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    
+    height: 48px;
+    background-color: #BBEFEF;
+    border-radius: 12px;
+    border: 1px solid #B8B8B8;
+    font-size: 21px;
+    
+}
+
+.company_main_info_h{
+    color: #0B4B67;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.about{
+    
+    display: flex;
+    gap: 0 46px;
+    padding-left: 83px;
+    justify-content: space-between;
+    height: 100vh;
+    min-height: 100%;
+    
+}
+
+.about_block{
+    background: url("./assets/ITback.png");
+    display: flex;
+    align-items: center;
+    
+}
+.about_img{
+    width: 35%;
+    border-radius: 30px;
+    margin: auto auto;
+    
+}
+
+.about_block_p{
+    color: #0B4B67;
+    font-size: 41px;
+    text-align: center;
+    display: block;
+}
+
+.products{
+    height: 100vh;
+    background-image: url("./assets/product_back1.png");
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    
+}
+
+.products_block1{
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(78deg, #1E4EE4 10.05%, #118387 60.25%, #11C5CD 85.35%);
+
+    position:absolute;
+    bottom:0;
+	width: 80%;
+    left: 8%;
+    
+    border-radius: 40px 40px 0 0;
+    padding-top: 143px;
+    padding-left: 95px;
+}
+
+.products_item_p{
+    color: #F4F4F4;
+    font-size: 38px;
+    text-align: center;
+    width: 547px;
+    height: 106px;
+}
+.products_item_img1{
+    width: 252px;
+    height: 256px;
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+    margin-top: 5px;
+}
+
+.products_item{
+    position: relative;
+}
+
+.products_block2{
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(95deg, #1E4EE4 9.67%, #118387 64.15%, #11C5CD 91.39%);
+
+
+    position:absolute;
+    top:0;
+	width: 80%;
+    left: 8%;
+    border-radius: 0 0 40px 40px;
+    padding-top: 80px;
+    padding-left: 95px;
+}
+
+.products_block1_img{
+    position: absolute;
+    width: 28%;
+    left: 55%;
+    top: -20%;
+    border-radius: 40px;
+}
+
+.products_block2_img{
+    position: absolute;
+    width: 28%;
+    padding-right: 95px;
+    left: 15%;
+    bottom: -22%;
+}
+
+.products_item_img2{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.products_item2{
+    float: right;
+    margin-right: 80px;
+}
+
+.ourproduct{
+    height: 100vh;
+    background-image: url("./assets/background.png");
+    background-size: cover;
+    display: flex;
+}
+
+.ourproduct_img{
+    height: 100%;
+}
+
+.ourproduct_info{
+    padding-top: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 10% 0;
+}
+
+.ourproduct_info_p{
+    color: #0B4B67;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.nobold{
+    font-weight: 400;
+}
+
+.ourproduct_info_img{
+    width: 221px;
+    margin: 0 auto;
+}
+
+.fond{
+    height: 100vh;
+    background-image: url("./assets/background2.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.fond_p{
+    color: #0B4B67;
+    text-align: center;
+    font-size: 32px;
+    width: 70%;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.fond_pics{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fond_img{
+    width: 473px;
+    height: 214px;
+}
+
+.fond_icon{
+    width: 238px;
+}
+
+.contacts{
+    background: linear-gradient(78deg, #1E4EE4 10.05%, #118387 60.25%, #11C5CD 85.35%);
+    padding: 77px 80px 7px 80px;
+}
+
+.contacts_head{
+    background-color: #FFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 77px 7px 77px;
+    margin-bottom: 46px;
+}
+
+.contacts_head_logo{
+    width: 80px;
+}
+
+.contacts_head_h{
+    color: #0B4B67;
+    font-size: 26px;
+}
+
+.contacts-items{
+    display: flex;
+    width: 820px;
+    margin: 0 auto;
+    gap: 0 155px;
+    margin-bottom: 61px;
+}
+
+.contacts_item{
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+    font-size: 20px;
+    color: #0B4B67;
+    border-radius: 40px;
+    padding: 10px 15px 10px 45px;
+    width: 384px;
+}
+
+.siteby{
+    display: flex;
+    justify-content: space-between;
+    color: #23a477;
+    font-size: 15px;
+}
+
+.up_btn{
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background: url("./assets/chevron.png");
+    background-size: cover;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0,5s;
+}
+
+.up_btn.active{
+    visibility: visible;
+    opacity: 1;
+}
