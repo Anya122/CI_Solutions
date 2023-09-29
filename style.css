@@ -276,17 +276,11 @@ a:hover{
     margin-bottom: 20px;
 }
 
-.fond_pics{
-    width: 55%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .fond_img{
     width: 473px;
     height: 214px;
+    margin: 0 auto;
 }
 
 .fond_icon{
@@ -447,17 +441,11 @@ a:hover{
     .fond_p{
         font-size: 16px;
     }
-    .fond_icon{
-        display: none;
-    }
 
     .contacts{
         padding: 77px 20px 7px 20px;
     }
    
-    .fond_pics{
-        justify-content: center;
-    }
     .contacts_head{
         padding: 7px 20px 7px 20px;
     }
